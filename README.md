@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+# Random Pokemon
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Description
 
-## Available Scripts
+This project was created in effort to teach my family how to play pokemon. My son and I have played for years, but at the time of writing this, my wife and daughter have only started playing recenly. They have reached a point where it would be advantageous to be able to recall each pokemon from memory, so I developed this tool to aid them in that endeavor. It will grow over time.
 
-In the project directory, you can run:
+### Within this repository:
 
-### `npm start`
+#### Random Pokemon Generator
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This page returns a single random pokemon and its accociated data.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#### Pokeomon of the Day
 
-### `npm test`
+Future Devlopement: This feature will deliver a single pokemon daily to help new players commit the Pokedex to memory.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Outside of this repository:
 
-### `npm run build`
+#### GetPokemon
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+[Database Builder Utility Repository](https://github.com/DavidMiles1925/get-pokemon): This program was written to gather the necessary data for the Random Pokemon App. I send reqests to my own API instead of using the public API. This is done for several reasons, the foremost of which is that I wanted to be able to currate the data. PokeAPI does a great job of following patterns for the most part, but occasionally breaks them which makes automatted curration difficult in some instances. Since I need an API for my user athentication anyway, it was easiest to just incorporate my own pokemon database into the API. Click the link for more info.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### Random Pokemon API
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Good News! This project is in active development. THis will add user authentication, and a smaller local load into memory without the mockServer.
 
-### `npm run eject`
+[Random Pokemon API Repository](https://github.com/DavidMiles1925/Random-Pokemon): The API is responsible for serving the Random Pokemon UI with pokemon data and user data.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**Thanks to:**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[PokeAPI](https://pokeapi.co/), a complete, accurate, and easy to use API that supplied the raw data for this project.

@@ -1,9 +1,13 @@
+// Styles
 import "./App.css";
+
+// Components
+import Header from "../Header/Header";
 
 function App() {
   return (
     <div className='App'>
-      <h1>This page under construction.</h1>
+      <Header className='app_header' />
     </div>
   );
 }
