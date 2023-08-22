@@ -10591,3 +10591,5 @@ const mockServer = [
       "Much remains unknown about this creature. It resembles Cyclizar, but it is far more ruthless and powerful.",
   },
 ];
+
+export default mockServer;

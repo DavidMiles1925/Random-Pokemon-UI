@@ -10,6 +10,8 @@ This project was created in effort to teach my family how to play pokemon. My so
 
 This page returns a single random pokemon and its accociated data.
 
+<img src="./src/images/readme/app_draft.png" alt="drawing" width="200"/>
+
 #### Pokeomon of the Day
 
 Future Devlopement: This feature will deliver a single pokemon daily to help new players commit the Pokedex to memory.
