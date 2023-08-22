@@ -53,3 +53,17 @@
   max-width: 300px;
   font-weight: normal;
 }
+
+.rand__attribute_type_type {
+  font-size: 32px;
+  margin: 0;
+}
+
+.rand__type-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.rand__type-emblem {
+  width: 60px;
+}
