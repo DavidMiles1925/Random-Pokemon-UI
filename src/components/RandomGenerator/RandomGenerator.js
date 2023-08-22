@@ -16,11 +16,7 @@ function RandomGenerator({ pokemonData }) {
     console.log(randomNumber);
 
     const data = mockServer[randomNumber];
-    const stringToUse =
-      process.env.PUBLIC_URL +
-      "public/official-artwork/" +
-      randomNumber +
-      ".png";
+    const stringToUse = "/public/official-artwork/" + randomNumber + ".png";
     console.log(stringToUse);
 
     setImageNumber(stringToUse);
