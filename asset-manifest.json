@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Random-Pokemon-UI/static/css/main.0cad05e2.css",
-    "main.js": "/Random-Pokemon-UI/static/js/main.81d3bceb.js",
+    "main.css": "/Random-Pokemon-UI/static/css/main.35fb5f39.css",
+    "main.js": "/Random-Pokemon-UI/static/js/main.65cab1a0.js",
     "static/media/PocketMonk.ttf": "/Random-Pokemon-UI/static/media/PocketMonk.09d09837f1b6dec50403.ttf",
     "index.html": "/Random-Pokemon-UI/index.html",
-    "main.0cad05e2.css.map": "/Random-Pokemon-UI/static/css/main.0cad05e2.css.map",
-    "main.81d3bceb.js.map": "/Random-Pokemon-UI/static/js/main.81d3bceb.js.map"
+    "main.35fb5f39.css.map": "/Random-Pokemon-UI/static/css/main.35fb5f39.css.map",
+    "main.65cab1a0.js.map": "/Random-Pokemon-UI/static/js/main.65cab1a0.js.map"
   },
   "entrypoints": [
-    "static/css/main.0cad05e2.css",
-    "static/js/main.81d3bceb.js"
+    "static/css/main.35fb5f39.css",
+    "static/js/main.65cab1a0.js"
   ]
 }
