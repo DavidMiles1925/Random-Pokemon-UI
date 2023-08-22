@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import mockServer from "../../mockServer/mockServer";
 import "./RandomGenerator.css";
 
@@ -23,6 +23,11 @@ function RandomGenerator({ pokemonData }) {
 
     setEntryData(data);
   }
+
+  useEffect(() => {
+    getData();
+  }, []);
+
   return (
     <div className='page-wrapper'>
       <div className='rand'>
