@@ -2,10 +2,11 @@
   background-color: yellow;
   border: solid 4px red;
   border-radius: 20px;
-  width: 280px;
+  width: 320px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: rgb(164, 11, 11);
 }
 
 .rand__button {
@@ -17,6 +18,7 @@
   font-family: "PocketMonk";
   font-size: 24px;
   font-weight: bold;
+  color: rgb(240, 240, 2);
 }
 .rand__button:hover {
   cursor: pointer;
@@ -27,12 +29,12 @@
 }
 
 .rand__sprite {
-  margin: 12px;
-  border-radius: 100px;
-  width: 130px;
+  margin: 0;
+  width: 300px;
 }
 
 .rand__info-wrapper {
+  margin: 0;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -47,6 +49,6 @@
 .rand__attribute {
   text-align: left;
   margin: 0 0 8px 0;
-  max-width: 200px;
+  max-width: 300px;
   font-weight: normal;
 }
