@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import mockServer from "../../mockServer/mockServer";
 import "./RandomGenerator.css";
 
@@ -7,7 +7,7 @@ function RandomGenerator({ pokemonData }) {
   const [imageNumber, setImageNumber] = useState("");
 
   function generateRandom() {
-    const randomNumber = Math.floor(Math.random() * 1008);
+    const randomNumber = Math.floor(Math.random() * 1008) + 1;
     return randomNumber;
   }
 
@@ -16,13 +16,18 @@ function RandomGenerator({ pokemonData }) {
     console.log(randomNumber);
 
     const data = mockServer[randomNumber];
-    const stringToUse =
-      process.env.PUBLIC_URL + `/sprites/${randomNumber + 1}.jpg`;
+    const stringToUse = "/official-artwork/" + (randomNumber + 1) + ".png";
+    console.log(stringToUse);
 
     setImageNumber(stringToUse);
 
     setEntryData(data);
   }
+
+  useEffect(() => {
+    getData();
+  }, []);
+
   return (
     <div className='page-wrapper'>
       <div className='rand'>
