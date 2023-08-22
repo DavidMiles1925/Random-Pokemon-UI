@@ -1,0 +1,8 @@
+.header {
+  margin: 0;
+  background-color: black;
+}
+
+.header__link_type_main {
+  color: white;
+}
