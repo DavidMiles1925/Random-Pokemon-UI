@@ -56,7 +56,8 @@ function RandomGenerator({ pokemonData }) {
         <div className='rand__info-wrapper'>
           <p className='rand__attribute-title'>Pokedex Number: </p>
           <p className='rand__attribute'>{entryData.number}</p>
-
+          <p className='rand__attribute-title'>Description: </p>
+          <p className='rand__attribute'>{entryData.description}</p>
           <div className='rand__type-wrapper'>
             <p className='rand__attribute-title'>Type 1:</p>
             <img
@@ -79,9 +80,6 @@ function RandomGenerator({ pokemonData }) {
           ) : (
             ""
           )}
-
-          <p className='rand__attribute-title'>Description: </p>
-          <p className='rand__attribute'>{entryData.description}</p>
         </div>
       </div>
     </div>
