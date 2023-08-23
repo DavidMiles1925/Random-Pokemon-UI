@@ -1,0 +1,11 @@
+.typecard {
+  color: white;
+}
+
+.typecard__type-item {
+  margin: 0 10px 0 10px;
+}
+
+.typecard__type-wrapper {
+  display: flex;
+}

@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import TypeCard from "../TypeCard/TypeCard";
 import mockServer from "../../mockServer/mockServer";
 import "./RandomGenerator.css";
 
@@ -19,7 +20,6 @@ function RandomGenerator({ pokemonData }) {
 
   function getData() {
     const randomNumber = generateRandom();
-    console.log(randomNumber);
 
     const data = mockServer[randomNumber];
     const stringToUse = "/official-artwork/" + (randomNumber + 1) + ".png";
@@ -82,6 +82,7 @@ function RandomGenerator({ pokemonData }) {
           )}
         </div>
       </div>
+      <TypeCard type_0={entryData.type_0} />
     </div>
   );
 }
